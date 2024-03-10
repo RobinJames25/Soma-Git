@@ -1,0 +1,57 @@
+<form action="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="">
+<br>
+<br>
+    <label for="phone">Phone:</label>
+    <input type="tel" name="phone">
+<br>
+<br>
+    <label for="email">Email:</label>
+    <input type="email" name="">
+
+    <br>
+    <br>
+    <fieldset>
+        <legend>What Taxi Do you require?</legend>
+
+        <input type="radio" name="vehicle">
+        <label for="car">Car</label>
+        <br>
+        <br>
+        <input type="radio" name="vehicle">
+        <label for="taxi" name="vehicle">Taxi</label>
+        <br>
+        <br>
+        <input type="radio" name="vehicle">
+        <label for="tuk tuk" name="vehicle">Tuk Tuk</label>
+        <br>
+        <br>
+    </fieldset>
+
+    <label for="pickup">Pickup Date/Time:</label>
+    <input type="datetime" name="pickup">
+    <br>
+    <br>
+    <label for="pickup">Pickup Place:</label>
+    <select name="pickup">
+        <option value="select one">Select One</option>
+        <option value="depot place">Depot Place</option>
+        <option value="other">Other</option>
+    </select>
+    <br>
+    <br>
+    <label for="depot place">Depot Place:</label>
+    <input type="text" name="depot place">
+    <br>
+    <br>
+    <label for="special instructions">Special Instructions:</label>
+    <textarea name="special instructions" rows="2" cols="50"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Submit Booking">
+</form>
+
+
+</body>
+</html>
